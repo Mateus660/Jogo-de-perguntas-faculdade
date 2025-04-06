@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url(/IMG/fundo-jogo.png);
+    background-image: url(../IMG/fundo-jogo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
