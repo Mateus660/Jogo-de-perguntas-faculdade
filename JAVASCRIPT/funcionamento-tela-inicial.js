@@ -15,6 +15,6 @@ function nomecorr () {
 }
 
 function cadastrar () {
-    alert('olá mundo')
+    window.localStorage.setItem('nome', nome.value)
  }
  
