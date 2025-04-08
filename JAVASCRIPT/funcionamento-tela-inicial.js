@@ -11,8 +11,10 @@ function nomecorr () {
         labelnome.style.color = "Black"
     }
 
+
+}
+
 function cadastrar () {
     alert('olá mundo')
  }
-}
  
