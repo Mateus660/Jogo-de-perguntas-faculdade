@@ -13,12 +13,15 @@
         
         <div>
             <section>
-                <h1>Insira seu nome</h1>
-                <input type="text" name="nome" id="nome">
-                <button type="submit"  id="enviar"><p>Jogar</p></button>
+                <label for="nomeusuario" id="labelnome">Insira seu nome</label>
+                <input type="text" name="nome" id="nome" onkeyup="nomecorr()">
+                
+                
+                <button type="submit" id="enviar" onclick="cadastrar()"><p>Jogar</p></button>
             </section>
         </div>
           
     </div>
+    <script src="../JAVASCRIPT/funcionamento-tela-inicial.js"></script>
 </body>
 </html>

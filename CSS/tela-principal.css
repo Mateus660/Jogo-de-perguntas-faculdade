@@ -41,6 +41,10 @@ section {
     text-align: center;
 }
 
+#labelnome  {
+    font-size: xx-large;
+}
+
 section > input {
     width: 95%;
     margin-top: 20px;
