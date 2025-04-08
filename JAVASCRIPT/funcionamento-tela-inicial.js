@@ -14,7 +14,15 @@ function nomecorr () {
 
 }
 
-function cadastrar () {
-    window.localStorage.setItem('nome', nome.value)
- }
+function cadastrar() {
+    // Recupera o que já está salvo no localStorage (ou cria um array vazio)
+    let nomesSalvos = JSON.parse(localStorage.getItem('nomes')) || [];
+
+    // Adiciona o novo nome
+    nomesSalvos.push(nome.value);
+
+    // Salva de volta como JSON
+    localStorage.setItem('nomes', JSON.stringify(nomesSalvos));
+}
+
  
