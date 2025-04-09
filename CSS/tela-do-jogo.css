@@ -32,7 +32,11 @@ header > h1 {
 }
 
 .perguntas {
-    background-color: white;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4); /* cinza escuro translúcido */
+    backdrop-filter: blur(10px);           /* efeito "vidro" */
+    -webkit-backdrop-filter: blur(10px);   /* compatibilidade Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* leve contorno branco */
     width: 50%;
     top: 50%;
     left: 50%;
@@ -42,6 +46,8 @@ header > h1 {
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* profundidade com sombra */
+
 }
 
 form {
@@ -66,6 +72,12 @@ input[type="radio"] {
     transform: scale(1.3); /* Aumenta 1.5x o tamanho */
     margin-right: 8px;     /* Espaço entre bolinha e texto */
     accent-color: black; /* Ou qualquer cor: red, blue, etc */
+}
+
+input[type="radio"]:hover {
+    transform: scale(1.7);
+    accent-color: black;
+    
 }
 
 @media screen and (max-width:768px) {
