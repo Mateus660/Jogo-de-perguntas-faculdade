@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'minhafonte';
+    src: url(../FONTES/otf/Choko.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../IMG/fundo-colorido.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 36px;
+    font-family: 'minhafonte', sans-serif;
+
+}
+
+.perguntas {
+    background-color: white;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px;
+}
