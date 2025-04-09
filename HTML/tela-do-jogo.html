@@ -12,9 +12,30 @@
     <div id="container">
         <div class="perguntas">
             <h2>Qual é o maior planeta do sistema solar?</h2>
-            <option value=".">👉 Júpiter</option>
+            <form>
+                <label>
+                    <input type="radio" name="planeta" value="jupiter" class="alternativas">
+                    👉 Júpiter
+                </label><br>
+                <label>
+                    <input type="radio" name="planeta" value="terra" class="alternativas">
+                    🌍 Terra
+                </label><br>
+                <label>
+                    <input type="radio" name="planeta" value="marte" class="alternativas">
+                    🔴 Marte
+                </label><br>
+                <label>
+                    <input type="radio" name="planeta" value="venus" class="alternativas">
+                    ♀️ Vênus
+                </label>
 
+                <br><br>
+                
+                <button id="responder">Responder</button>
+            </form>
         </div>
     </div>
+    <script src="../JAVASCRIPT/funcionamento-tela-do-jogo.js"></script>
 </body>
 </html>

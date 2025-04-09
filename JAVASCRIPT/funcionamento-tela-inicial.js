@@ -27,4 +27,5 @@ function cadastrar() {
     location.href = "tela-do-jogo.html"
 }
 
+
  

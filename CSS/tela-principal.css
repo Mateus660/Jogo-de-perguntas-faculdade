@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url(../IMG/fundo-jogo.png);
+    background-color: #830AD2;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,6 +24,11 @@ header {
     margin-top: 40px;
     font-family: 'minhafonte', sans-serif;
     font-size: 30px;
+    color: white;
+}
+
+header > h1 {
+    filter: drop-shadow(4px 4px 4px black);
 }
 
 section {
@@ -39,6 +44,11 @@ section {
     width: 400px;
     height: 180px;
     text-align: center;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+section > h1 {
+    color: white;
 }
 
 #labelnome  {
