@@ -38,10 +38,9 @@ header > h1 {
     -webkit-backdrop-filter: blur(10px);   /* compatibilidade Safari */
     border: 1px solid rgba(255, 255, 255, 0.3); /* leve contorno branco */
     width: 50%;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -40%);
+    margin: auto;
+    display: block;
+    margin-top: 50px;
     border-radius: 10px;
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -81,8 +80,12 @@ input[type="radio"]:hover {
 }
 
 @media screen and (max-width:768px) {
+    body {
+        padding: 4px;
+    }
+    
     .perguntas {
-        margin-top: 20px;
+        margin-top: 40px;
     }
     
 }
