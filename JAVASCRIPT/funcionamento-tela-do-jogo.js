@@ -19,12 +19,12 @@ function resp1() {
 
 function resp2() {
      // Pega todas as alternativas (inputs com class "alternativas")
-  var alternativas = document.querySelectorAll('.alternativas');
+  var alternativas2 = document.querySelectorAll('.alternativas2');
   
   // Percorre todas e vê qual está marcada
-  alternativas.forEach(function(alternativa) {
-      if (alternativa.checked) {
-          if (alternativa.value === "Cinco") {
+  alternativas2.forEach(function(alternativa2) {
+      if (alternativa2.checked) {
+          if (alternativa2.value === "Cinco") {
               alert("Você acertou!");
           } else {
               alert("Você errou!");
@@ -35,12 +35,12 @@ function resp2() {
    
 function resp3() {
      // Pega todas as alternativas (inputs com class "alternativas")
-  var alternativas = document.querySelectorAll('.alternativas');
+  var alternativas3 = document.querySelectorAll('.alternativas3');
   
   // Percorre todas e vê qual está marcada
-  alternativas.forEach(function(alternativa) {
-      if (alternativa.checked) {
-          if (alternativa.value === "terra") {
+  alternativas3.forEach(function(alternativa3) {
+      if (alternativa3.checked) {
+          if (alternativa3.value === "terra") {
               alert("Você acertou!");
           } else {
               alert("Você errou!");
@@ -51,12 +51,12 @@ function resp3() {
 
 function resp4() {
     // Pega todas as alternativas (inputs com class "alternativas")
- var alternativas = document.querySelectorAll('.alternativas');
+ var alternativas4 = document.querySelectorAll('.alternativas4');
  
  // Percorre todas e vê qual está marcada
- alternativas.forEach(function(alternativa) {
-     if (alternativa.checked) {
-         if (alternativa.value === "Uma proteção natural da Terra contra os raios solares.") {
+ alternativas4.forEach(function(alternativas4) {
+     if (alternativas4.checked) {
+         if (alternativas4.value === "Uma proteção natural da Terra contra os raios solares.") {
              alert("Você acertou!");
          } else {
              alert("Você errou!");
