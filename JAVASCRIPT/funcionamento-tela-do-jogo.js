@@ -140,3 +140,17 @@ function resp9() {
        }
     })
 }
+
+function resp10() {
+    var alternativas = document.querySelectorAll('.alternativas')
+
+    alternativas.forEach(function(alternativas) {
+        if (alternativas.checked) {
+            if (alternativas.value === 'Falcão-peregrino') {
+                alert('Você acertou')
+            } else {
+                alert('Você errou')
+            }
+        }
+    })
+}
