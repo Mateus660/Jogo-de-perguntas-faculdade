@@ -62,6 +62,10 @@ form {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+.alternativas {
+    margin-top: 16px;
+}
+
 #responder:hover {
     background-color: black;
     color: white;

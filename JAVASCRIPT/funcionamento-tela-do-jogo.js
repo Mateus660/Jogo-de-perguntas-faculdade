@@ -1,7 +1,7 @@
 var responder = document.getElementById('responder')
 
 
-function resp() {
+function resp1() {
   // Pega todas as alternativas (inputs com class "alternativas")
   var alternativas = document.querySelectorAll('.alternativas');
   
@@ -17,7 +17,7 @@ function resp() {
   });
 }
 
-function afirmar() {
+function resp2() {
      // Pega todas as alternativas (inputs com class "alternativas")
   var alternativas = document.querySelectorAll('.alternativas');
   
@@ -33,7 +33,7 @@ function afirmar() {
   });
 }
    
-function respond() {
+function resp3() {
      // Pega todas as alternativas (inputs com class "alternativas")
   var alternativas = document.querySelectorAll('.alternativas');
   
