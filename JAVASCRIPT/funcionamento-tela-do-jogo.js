@@ -112,3 +112,31 @@ function resp7() {
      }
  });
 }
+
+function resp8() {
+    var alternativas = document.querySelectorAll('.alternativas') 
+
+    alternativas.forEach(function(alternativa) {
+        if (alternativa.checked) {
+            if (alternativa.value === "Seis") {
+                alert('Você aceertou')
+            } else {
+                alert('Você errou')
+            }
+        }
+    })
+}
+
+function resp9() {
+    var alternativas = document.querySelectorAll('.alternativas') 
+
+    alternativas.forEach(function(alternativas) {
+        if (alternativas.checked) {
+            if (alternativas.value === 'Antoine de Saint-Exupéry') {
+                alert('Você acertou')
+            } else {
+                alert('Você errou')
+            }
+       }
+    })
+}
