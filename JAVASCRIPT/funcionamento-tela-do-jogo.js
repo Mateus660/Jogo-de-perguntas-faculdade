@@ -67,12 +67,12 @@ function resp4() {
 
 function resp5() {
     // Pega todas as alternativas (inputs com class "alternativas")
- var alternativas = document.querySelectorAll('.alternativas');
+ var alternativas5 = document.querySelectorAll('.alternativas5');
  
  // Percorre todas e vê qual está marcada
- alternativas.forEach(function(alternativa) {
-     if (alternativa.checked) {
-         if (alternativa.value === "Thomas Edison") {
+ alternativas5.forEach(function(alternativa5) {
+     if (alternativa5.checked) {
+         if (alternativa5.value === "Thomas Edison") {
              alert("Você acertou!");
          } else {
              alert("Você errou!");
@@ -83,12 +83,12 @@ function resp5() {
 
 function resp6() {
     // Pega todas as alternativas (inputs com class "alternativas")
- var alternativas = document.querySelectorAll('.alternativas');
+ var alternativas6 = document.querySelectorAll('.alternativas6');
  
  // Percorre todas e vê qual está marcada
- alternativas.forEach(function(alternativa) {
-     if (alternativa.checked) {
-         if (alternativa.value === "França") {
+ alternativas6.forEach(function(alternativa6) {
+     if (alternativa6.checked) {
+         if (alternativa6.value === "França") {
              alert("Você acertou!");
          } else {
              alert("Você errou!");
@@ -99,12 +99,12 @@ function resp6() {
 
 function resp7() {
     // Pega todas as alternativas (inputs com class "alternativas")
- var alternativas = document.querySelectorAll('.alternativas');
+ var alternativas7 = document.querySelectorAll('.alternativas7');
  
  // Percorre todas e vê qual está marcada
- alternativas.forEach(function(alternativa) {
-     if (alternativa.checked) {
-         if (alternativa.value === "Estribo") {
+ alternativas7.forEach(function(alternativa7) {
+     if (alternativa7.checked) {
+         if (alternativa7.value === "Estribo") {
              alert("Você acertou!");
          } else {
              alert("Você errou!");
@@ -114,11 +114,11 @@ function resp7() {
 }
 
 function resp8() {
-    var alternativas = document.querySelectorAll('.alternativas') 
+    var alternativas8 = document.querySelectorAll('.alternativas8') 
 
-    alternativas.forEach(function(alternativa) {
-        if (alternativa.checked) {
-            if (alternativa.value === "Seis") {
+    alternativas8.forEach(function(alternativa8) {
+        if (alternativa8.checked) {
+            if (alternativa8.value === "Seis") {
                 alert('Você aceertou')
             } else {
                 alert('Você errou')
@@ -128,11 +128,11 @@ function resp8() {
 }
 
 function resp9() {
-    var alternativas = document.querySelectorAll('.alternativas') 
+    var alternativas9 = document.querySelectorAll('.alternativas9') 
 
-    alternativas.forEach(function(alternativas) {
-        if (alternativas.checked) {
-            if (alternativas.value === 'Antoine de Saint-Exupéry') {
+    alternativas9.forEach(function(alternativas9) {
+        if (alternativas9.checked) {
+            if (alternativas9.value === 'Antoine de Saint-Exupéry') {
                 alert('Você acertou')
             } else {
                 alert('Você errou')
@@ -142,11 +142,11 @@ function resp9() {
 }
 
 function resp10() {
-    var alternativas = document.querySelectorAll('.alternativas')
+    var alternativas10 = document.querySelectorAll('.alternativas10')
 
-    alternativas.forEach(function(alternativas) {
-        if (alternativas.checked) {
-            if (alternativas.value === 'Falcão-peregrino') {
+    alternativas10.forEach(function(alternativas10) {
+        if (alternativas10.checked) {
+            if (alternativas10.value === 'Falcão-peregrino') {
                 alert('Você acertou')
             } else {
                 alert('Você errou')
