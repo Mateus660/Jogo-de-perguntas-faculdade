@@ -24,7 +24,7 @@ function cadastrar() {
     // Salva de volta como JSON
     localStorage.setItem('nomes', JSON.stringify(nomesSalvos));
 
-    location.href = "tela-do-jogo.html"
+    location.href = "tela-explicacao.html"
 }
 
 
