@@ -38,4 +38,11 @@ section > h3 {
     font-size: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    section {
+        height: 60vw;
+    }
+}
+    
+
 
