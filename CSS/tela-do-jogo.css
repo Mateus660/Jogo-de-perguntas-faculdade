@@ -49,11 +49,15 @@ header > h1 {
 
 }
 
+#container {
+    padding: 10px;
+}
+
 form {
     padding: 5px;
 }
 
-#responder {
+#responder, #final {
    border-radius: 10px;
    background-color: white;
    padding: 10px;
@@ -62,11 +66,16 @@ form {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+#final {
+  width: 100px;
+  font-size: 20px;
+}
+
 .alternativas, .alternativas2, .alternativas3, .alternativas4, .alternativas5, .alternativas6, .alternativas7, .alternativas8, .alternativas9, .alternativas10 {
     margin-top: 16px;
 }
 
-#responder:hover {
+#responder:hover , #final:hover {
     background-color: black;
     color: white;
 }

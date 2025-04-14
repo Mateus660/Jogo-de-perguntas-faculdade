@@ -1,4 +1,6 @@
 var responder = document.getElementById('responder')
+let pontuacao = localStorage.getItem('pontuacao') ? parseInt(localStorage.getItem('pontuacao')) : 0;
+
 
 
 function resp1() {
@@ -10,6 +12,9 @@ function resp1() {
       if (alternativa.checked) {
           if (alternativa.value === "jupiter") {
               alert("Você acertou!");
+              pontuacao++;
+              localStorage.setItem('pontuacao', pontuacao);
+
           } else {
               alert("Você errou!");
           }
@@ -26,6 +31,9 @@ function resp2() {
       if (alternativa2.checked) {
           if (alternativa2.value === "Cinco") {
               alert("Você acertou!");
+              pontuacao++;
+              localStorage.setItem('pontuacao', pontuacao);
+
           } else {
               alert("Você errou!");
           }
@@ -42,6 +50,9 @@ function resp3() {
       if (alternativa3.checked) {
           if (alternativa3.value === "terra") {
               alert("Você acertou!");
+              pontuacao++;
+              localStorage.setItem('pontuacao', pontuacao);
+
           } else {
               alert("Você errou!");
           }
@@ -58,6 +69,9 @@ function resp4() {
      if (alternativas4.checked) {
          if (alternativas4.value === "Uma proteção natural da Terra contra os raios solares.") {
              alert("Você acertou!");
+             pontuacao++;
+             localStorage.setItem('pontuacao', pontuacao);
+
          } else {
              alert("Você errou!");
          }
@@ -74,6 +88,9 @@ function resp5() {
      if (alternativa5.checked) {
          if (alternativa5.value === "Thomas Edison") {
              alert("Você acertou!");
+             pontuacao++;
+             localStorage.setItem('pontuacao', pontuacao);
+
          } else {
              alert("Você errou!");
          }
@@ -90,6 +107,9 @@ function resp6() {
      if (alternativa6.checked) {
          if (alternativa6.value === "França") {
              alert("Você acertou!");
+             pontuacao++;
+             localStorage.setItem('pontuacao', pontuacao);
+
          } else {
              alert("Você errou!");
          }
@@ -106,6 +126,9 @@ function resp7() {
      if (alternativa7.checked) {
          if (alternativa7.value === "Estribo") {
              alert("Você acertou!");
+             pontuacao++;
+             localStorage.setItem('pontuacao', pontuacao);
+
          } else {
              alert("Você errou!");
          }
@@ -120,6 +143,9 @@ function resp8() {
         if (alternativa8.checked) {
             if (alternativa8.value === "Seis") {
                 alert('Você aceertou')
+                pontuacao++;
+                localStorage.setItem('pontuacao', pontuacao);
+
             } else {
                 alert('Você errou')
             }
@@ -134,6 +160,9 @@ function resp9() {
         if (alternativas9.checked) {
             if (alternativas9.value === 'Antoine de Saint-Exupéry') {
                 alert('Você acertou')
+                pontuacao++;
+                localStorage.setItem('pontuacao', pontuacao);
+
             } else {
                 alert('Você errou')
             }
@@ -148,9 +177,23 @@ function resp10() {
         if (alternativas10.checked) {
             if (alternativas10.value === 'Falcão-peregrino') {
                 alert('Você acertou')
+                pontuacao++;
+                localStorage.setItem('pontuacao', pontuacao);
+
             } else {
                 alert('Você errou')
             }
         }
     })
 }
+
+function finalizarjogo() {
+    window.location.href = 'resulltado.html';
+}
+
+
+window.onload = function() {
+    let pontos = localStorage.getItem('pontuacaoFinal') || 0;
+    
+}
+
