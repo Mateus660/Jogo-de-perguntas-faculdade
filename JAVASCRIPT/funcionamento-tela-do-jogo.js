@@ -10,7 +10,7 @@ function resp1() {
   // Percorre todas e vê qual está marcada
   alternativas.forEach(function(alternativa) {
       if (alternativa.checked) {
-          if (alternativa.value === "jupiter") {
+          if (alternativa.value === "Separar e colocar na lixeira correta") {
               alert("Você acertou!");
               pontuacao++;
               localStorage.setItem('pontuacao', pontuacao);
@@ -29,7 +29,7 @@ function resp2() {
   // Percorre todas e vê qual está marcada
   alternativas2.forEach(function(alternativa2) {
       if (alternativa2.checked) {
-          if (alternativa2.value === "Cinco") {
+          if (alternativa2.value === "Ipê") {
               alert("Você acertou!");
               pontuacao++;
               localStorage.setItem('pontuacao', pontuacao);
@@ -48,7 +48,7 @@ function resp3() {
   // Percorre todas e vê qual está marcada
   alternativas3.forEach(function(alternativa3) {
       if (alternativa3.checked) {
-          if (alternativa3.value === "terra") {
+          if (alternativa3.value === "Fechar a torneira ao escovar os dentes") {
               alert("Você acertou!");
               pontuacao++;
               localStorage.setItem('pontuacao', pontuacao);
@@ -67,7 +67,7 @@ function resp4() {
  // Percorre todas e vê qual está marcada
  alternativas4.forEach(function(alternativas4) {
      if (alternativas4.checked) {
-         if (alternativas4.value === "Uma proteção natural da Terra contra os raios solares.") {
+         if (alternativas4.value === "Tudo ao nosso redor: natureza, animais, pessoas") {
              alert("Você acertou!");
              pontuacao++;
              localStorage.setItem('pontuacao', pontuacao);
@@ -86,7 +86,7 @@ function resp5() {
  // Percorre todas e vê qual está marcada
  alternativas5.forEach(function(alternativa5) {
      if (alternativa5.checked) {
-         if (alternativa5.value === "Thomas Edison") {
+         if (alternativa5.value === "Porque são parte da natureza e ajudam o equilíbrio ambiental") {
              alert("Você acertou!");
              pontuacao++;
              localStorage.setItem('pontuacao', pontuacao);
@@ -105,7 +105,7 @@ function resp6() {
  // Percorre todas e vê qual está marcada
  alternativas6.forEach(function(alternativa6) {
      if (alternativa6.checked) {
-         if (alternativa6.value === "França") {
+         if (alternativa6.value === "Jogar lixo na rua") {
              alert("Você acertou!");
              pontuacao++;
              localStorage.setItem('pontuacao', pontuacao);
@@ -124,7 +124,7 @@ function resp7() {
  // Percorre todas e vê qual está marcada
  alternativas7.forEach(function(alternativa7) {
      if (alternativa7.checked) {
-         if (alternativa7.value === "Estribo") {
+         if (alternativa7.value === "Latas e garrafas plásticas") {
              alert("Você acertou!");
              pontuacao++;
              localStorage.setItem('pontuacao', pontuacao);
@@ -141,7 +141,7 @@ function resp8() {
 
     alternativas8.forEach(function(alternativa8) {
         if (alternativa8.checked) {
-            if (alternativa8.value === "Seis") {
+            if (alternativa8.value === "Apagando a luz ao sair do quarto") {
                 alert('Você aceertou')
                 pontuacao++;
                 localStorage.setItem('pontuacao', pontuacao);
@@ -158,7 +158,7 @@ function resp9() {
 
     alternativas9.forEach(function(alternativas9) {
         if (alternativas9.checked) {
-            if (alternativas9.value === 'Antoine de Saint-Exupéry') {
+            if (alternativas9.value === 'Animais perdem seu lar') {
                 alert('Você acertou')
                 pontuacao++;
                 localStorage.setItem('pontuacao', pontuacao);
