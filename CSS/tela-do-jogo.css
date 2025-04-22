@@ -98,6 +98,7 @@ input[type="radio"]:hover {
     }
     
     .perguntas {
+        width: 85%;
         margin-top: 40px;
     }
     
