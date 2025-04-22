@@ -158,7 +158,7 @@ function resp9() {
 
     alternativas9.forEach(function(alternativas9) {
         if (alternativas9.checked) {
-            if (alternativas9.value === 'Animais perdem seu lar') {
+            if (alternativas9.value === 'Abelha') {
                 alert('Você acertou')
                 pontuacao++;
                 localStorage.setItem('pontuacao', pontuacao);
@@ -175,7 +175,7 @@ function resp10() {
 
     alternativas10.forEach(function(alternativas10) {
         if (alternativas10.checked) {
-            if (alternativas10.value === 'Falcão-peregrino') {
+            if (alternativas10.value === 'Animais perdem seu lar') {
                 alert('Você acertou')
                 pontuacao++;
                 localStorage.setItem('pontuacao', pontuacao);
